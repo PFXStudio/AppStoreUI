@@ -12,13 +12,15 @@ import ComposableArchitecture
 struct AppStoreApp: App {
     var body: some Scene {
         WindowGroup {
-            SearchView(store:
-                        Store(initialState:
-                                SearchReducer.State(result: SearchResult.empty,
-                                                    query: "",
-                                                    popupInfo: nil),
-                              reducer: SearchReducer()._printChanges())
-            )
+//            SearchView(store:
+//                        Store(initialState:
+//                                SearchReducer.State(result: SearchResult.empty,
+//                                                    query: "",
+//                                                    popupInfo: nil),
+//                              reducer: SearchReducer()._printChanges())
+//            )
+            
+            StepView(store: Store(initialState: StepReducer.State(count: 0, message: nil), reducer: StepReducer()._printChanges()))
         }
     }
 }

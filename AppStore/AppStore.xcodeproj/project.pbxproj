@@ -25,6 +25,10 @@
 		B25327CD294EF562007C1C0B /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25327CC294EF562007C1C0B /* AppInfo.swift */; };
 		B25327D0294EF62B007C1C0B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25327CF294EF62B007C1C0B /* Config.swift */; };
 		B25327D4294F04FE007C1C0B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25327D3294F04FE007C1C0B /* SearchView.swift */; };
+		B28B0D372956CC9400250F55 /* StepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28B0D362956CC9400250F55 /* StepView.swift */; };
+		B28B0D392956CCA000250F55 /* StepReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28B0D382956CCA000250F55 /* StepReducer.swift */; };
+		B28B0D3C2956CCBA00250F55 /* StepState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28B0D3B2956CCBA00250F55 /* StepState.swift */; };
+		B28B0D3F2956CCEF00250F55 /* StepAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28B0D3E2956CCEF00250F55 /* StepAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,10 @@
 		B25327CC294EF562007C1C0B /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
 		B25327CF294EF62B007C1C0B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		B25327D3294F04FE007C1C0B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		B28B0D362956CC9400250F55 /* StepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepView.swift; sourceTree = "<group>"; };
+		B28B0D382956CCA000250F55 /* StepReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepReducer.swift; sourceTree = "<group>"; };
+		B28B0D3B2956CCBA00250F55 /* StepState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepState.swift; sourceTree = "<group>"; };
+		B28B0D3E2956CCEF00250F55 /* StepAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,7 @@
 		B253278C294EF234007C1C0B /* AppStore */ = {
 			isa = PBXGroup;
 			children = (
+				B28B0D332956CC6900250F55 /* Step */,
 				B25327D1294F0485007C1C0B /* Search */,
 				B2532793294EF235007C1C0B /* AppStore.entitlements */,
 				B253278D294EF234007C1C0B /* AppStoreApp.swift */,
@@ -222,6 +231,49 @@
 				B25327D3294F04FE007C1C0B /* SearchView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B28B0D332956CC6900250F55 /* Step */ = {
+			isa = PBXGroup;
+			children = (
+				B28B0D3D2956CCDE00250F55 /* Action */,
+				B28B0D3A2956CCB000250F55 /* State */,
+				B28B0D352956CC7F00250F55 /* Reducer */,
+				B28B0D342956CC7500250F55 /* Views */,
+			);
+			path = Step;
+			sourceTree = "<group>";
+		};
+		B28B0D342956CC7500250F55 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B28B0D362956CC9400250F55 /* StepView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B28B0D352956CC7F00250F55 /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				B28B0D382956CCA000250F55 /* StepReducer.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		B28B0D3A2956CCB000250F55 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				B28B0D3B2956CCBA00250F55 /* StepState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		B28B0D3D2956CCDE00250F55 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				B28B0D3E2956CCEF00250F55 /* StepAction.swift */,
+			);
+			path = Action;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,11 +416,15 @@
 				B25327D4294F04FE007C1C0B /* SearchView.swift in Sources */,
 				B25327C8294EF3D3007C1C0B /* Dependency.swift in Sources */,
 				B25327BE294EF2AA007C1C0B /* SearchReducer.swift in Sources */,
+				B28B0D3C2956CCBA00250F55 /* StepState.swift in Sources */,
 				B25327D0294EF62B007C1C0B /* Config.swift in Sources */,
 				B2532790294EF234007C1C0B /* ContentView.swift in Sources */,
+				B28B0D392956CCA000250F55 /* StepReducer.swift in Sources */,
 				B25327CB294EF434007C1C0B /* Test.swift in Sources */,
 				B25327C6294EF373007C1C0B /* SearchResult.swift in Sources */,
 				B25327CD294EF562007C1C0B /* AppInfo.swift in Sources */,
+				B28B0D372956CC9400250F55 /* StepView.swift in Sources */,
+				B28B0D3F2956CCEF00250F55 /* StepAction.swift in Sources */,
 				B25327BC294EF29E007C1C0B /* StoreClient.swift in Sources */,
 				B2503E88294F2B450014B118 /* PopupInfo.swift in Sources */,
 				B253278E294EF234007C1C0B /* AppStoreApp.swift in Sources */,
