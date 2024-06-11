@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "team-1-800x800.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
