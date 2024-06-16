@@ -13,7 +13,8 @@ struct SUPlaygroundApp: App {
         WindowGroup {
 //            ContentView()
 //            LoopsModule()
-            UberEatsModule()
+//            UberEatsModule()
+            ButtonsModule()
         }
     }
 }

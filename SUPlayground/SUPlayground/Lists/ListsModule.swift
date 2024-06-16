@@ -45,7 +45,7 @@ struct ListsModule: View {
                 }
             }
         }
-        // 안 되는데??
+        // TODO: rain.b 안 되는데??
 //        .listStyle(SidebarListStyle())
         .listStyle(.inset)
     }

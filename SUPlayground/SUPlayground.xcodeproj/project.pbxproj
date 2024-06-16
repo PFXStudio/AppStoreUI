@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B24845F52C1E8EF500E7BA2C /* ButtonsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24845F42C1E8EF500E7BA2C /* ButtonsModule.swift */; };
+		B24845F82C1E93F200E7BA2C /* ControlFlowModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24845F72C1E93F200E7BA2C /* ControlFlowModule.swift */; };
+		B24845FB2C1E96B200E7BA2C /* ViewExtractionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24845FA2C1E96B200E7BA2C /* ViewExtractionModule.swift */; };
+		B24845FE2C1E98D900E7BA2C /* UberEatsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24845FD2C1E98D900E7BA2C /* UberEatsMenu.swift */; };
+		B24846002C1E9A2F00E7BA2C /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24845FF2C1E9A2F00E7BA2C /* MenuItemView.swift */; };
+		B24846032C1E9AE500E7BA2C /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24846022C1E9AE500E7BA2C /* MenuItem.swift */; };
 		B259F17B2C11557800AB7EBE /* SpacersModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259F17A2C11557800AB7EBE /* SpacersModule.swift */; };
 		B259F17E2C11595D00AB7EBE /* LoopsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259F17D2C11595D00AB7EBE /* LoopsModule.swift */; };
 		B259F1812C11637200AB7EBE /* ScrollViewsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B259F1802C11637200AB7EBE /* ScrollViewsModule.swift */; };
@@ -46,6 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B24845F42C1E8EF500E7BA2C /* ButtonsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsModule.swift; sourceTree = "<group>"; };
+		B24845F72C1E93F200E7BA2C /* ControlFlowModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowModule.swift; sourceTree = "<group>"; };
+		B24845FA2C1E96B200E7BA2C /* ViewExtractionModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtractionModule.swift; sourceTree = "<group>"; };
+		B24845FD2C1E98D900E7BA2C /* UberEatsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberEatsMenu.swift; sourceTree = "<group>"; };
+		B24845FF2C1E9A2F00E7BA2C /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		B24846022C1E9AE500E7BA2C /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		B259F17A2C11557800AB7EBE /* SpacersModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersModule.swift; sourceTree = "<group>"; };
 		B259F17D2C11595D00AB7EBE /* LoopsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopsModule.swift; sourceTree = "<group>"; };
 		B259F1802C11637200AB7EBE /* ScrollViewsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewsModule.swift; sourceTree = "<group>"; };
@@ -96,6 +108,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B24845F32C1E8EE900E7BA2C /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B24845F42C1E8EF500E7BA2C /* ButtonsModule.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		B24845F62C1E93E100E7BA2C /* ControlFlow */ = {
+			isa = PBXGroup;
+			children = (
+				B24845F72C1E93F200E7BA2C /* ControlFlowModule.swift */,
+			);
+			path = ControlFlow;
+			sourceTree = "<group>";
+		};
+		B24845F92C1E969E00E7BA2C /* ViewExtraction */ = {
+			isa = PBXGroup;
+			children = (
+				B24845FA2C1E96B200E7BA2C /* ViewExtractionModule.swift */,
+			);
+			path = ViewExtraction;
+			sourceTree = "<group>";
+		};
+		B24845FC2C1E98C200E7BA2C /* DataModules */ = {
+			isa = PBXGroup;
+			children = (
+				B24846012C1E9ADA00E7BA2C /* Models */,
+				B24845FD2C1E98D900E7BA2C /* UberEatsMenu.swift */,
+				B24845FF2C1E9A2F00E7BA2C /* MenuItemView.swift */,
+			);
+			path = DataModules;
+			sourceTree = "<group>";
+		};
+		B24846012C1E9ADA00E7BA2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B24846022C1E9AE500E7BA2C /* MenuItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B259F1792C11556100AB7EBE /* Spacers */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +214,10 @@
 		B2A1D5472C0C134600608969 /* SUPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				B24845FC2C1E98C200E7BA2C /* DataModules */,
+				B24845F92C1E969E00E7BA2C /* ViewExtraction */,
+				B24845F62C1E93E100E7BA2C /* ControlFlow */,
+				B24845F32C1E8EE900E7BA2C /* Buttons */,
 				B28117B42C12AEAE000813EA /* Lists */,
 				B28117B12C12A803000813EA /* Grids */,
 				B259F17F2C11636100AB7EBE /* ScrollViews */,
@@ -400,18 +458,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				B259F1832C1165D400AB7EBE /* UberEatsModule.swift in Sources */,
+				B24845FB2C1E96B200E7BA2C /* ViewExtractionModule.swift in Sources */,
+				B24845F82C1E93F200E7BA2C /* ControlFlowModule.swift in Sources */,
 				B2A1D54B2C0C134600608969 /* ContentView.swift in Sources */,
 				B259F17B2C11557800AB7EBE /* SpacersModule.swift in Sources */,
 				B28117B62C12AEB9000813EA /* ListsModule.swift in Sources */,
 				B2A1D5752C0C140400608969 /* TestModule.swift in Sources */,
 				B28117B32C12A812000813EA /* GridsModule.swift in Sources */,
 				B2A1D5802C0C1AA100608969 /* StackModule.swift in Sources */,
+				B24846032C1E9AE500E7BA2C /* MenuItem.swift in Sources */,
 				B2A1D5872C0C221E00608969 /* PaddingModule.swift in Sources */,
+				B24845F52C1E8EF500E7BA2C /* ButtonsModule.swift in Sources */,
 				B2A1D5842C0C1F9F00608969 /* FollowCell.swift in Sources */,
 				B2A1D57D2C0C176100608969 /* ImagesModule.swift in Sources */,
 				B2A1D5492C0C134600608969 /* SUPlaygroundApp.swift in Sources */,
 				B259F1812C11637200AB7EBE /* ScrollViewsModule.swift in Sources */,
+				B24845FE2C1E98D900E7BA2C /* UberEatsMenu.swift in Sources */,
 				B2A1D5782C0C15D600608969 /* ShapesModule.swift in Sources */,
+				B24846002C1E9A2F00E7BA2C /* MenuItemView.swift in Sources */,
 				B259F17E2C11595D00AB7EBE /* LoopsModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
