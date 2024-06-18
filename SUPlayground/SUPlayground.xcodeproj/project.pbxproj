@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B21980952C21C0E200EEFC07 /* TextFieldModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21980942C21C0E200EEFC07 /* TextFieldModule.swift */; };
+		B21980982C21C50300EEFC07 /* BindingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21980972C21C50300EEFC07 /* BindingModule.swift */; };
 		B24845F52C1E8EF500E7BA2C /* ButtonsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24845F42C1E8EF500E7BA2C /* ButtonsModule.swift */; };
 		B24845F82C1E93F200E7BA2C /* ControlFlowModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24845F72C1E93F200E7BA2C /* ControlFlowModule.swift */; };
 		B24845FB2C1E96B200E7BA2C /* ViewExtractionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24845FA2C1E96B200E7BA2C /* ViewExtractionModule.swift */; };
@@ -52,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B21980942C21C0E200EEFC07 /* TextFieldModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModule.swift; sourceTree = "<group>"; };
+		B21980972C21C50300EEFC07 /* BindingModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingModule.swift; sourceTree = "<group>"; };
 		B24845F42C1E8EF500E7BA2C /* ButtonsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsModule.swift; sourceTree = "<group>"; };
 		B24845F72C1E93F200E7BA2C /* ControlFlowModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowModule.swift; sourceTree = "<group>"; };
 		B24845FA2C1E96B200E7BA2C /* ViewExtractionModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtractionModule.swift; sourceTree = "<group>"; };
@@ -108,6 +112,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B21980932C21C0CA00EEFC07 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				B21980942C21C0E200EEFC07 /* TextFieldModule.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		B21980962C21C4F000EEFC07 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				B21980972C21C50300EEFC07 /* BindingModule.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
 		B24845F32C1E8EE900E7BA2C /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +234,8 @@
 		B2A1D5472C0C134600608969 /* SUPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				B21980962C21C4F000EEFC07 /* Binding */,
+				B21980932C21C0CA00EEFC07 /* TextFields */,
 				B24845FC2C1E98C200E7BA2C /* DataModules */,
 				B24845F92C1E969E00E7BA2C /* ViewExtraction */,
 				B24845F62C1E93E100E7BA2C /* ControlFlow */,
@@ -476,6 +498,8 @@
 				B24845FE2C1E98D900E7BA2C /* UberEatsMenu.swift in Sources */,
 				B2A1D5782C0C15D600608969 /* ShapesModule.swift in Sources */,
 				B24846002C1E9A2F00E7BA2C /* MenuItemView.swift in Sources */,
+				B21980982C21C50300EEFC07 /* BindingModule.swift in Sources */,
+				B21980952C21C0E200EEFC07 /* TextFieldModule.swift in Sources */,
 				B259F17E2C11595D00AB7EBE /* LoopsModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

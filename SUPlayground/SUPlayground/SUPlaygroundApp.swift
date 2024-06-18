@@ -14,7 +14,8 @@ struct SUPlaygroundApp: App {
 //            ContentView()
 //            LoopsModule()
 //            UberEatsModule()
-            ButtonsModule()
+//            ButtonsModule()
+            TextFieldModule()
         }
     }
 }
